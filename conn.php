@@ -1,8 +1,8 @@
 <?php
- $dbhost = "den1.mysql3.gear.host";
- $dbuser = "lmsdb1";
- $dbpass = "Yt9utxB-~143";
- $db = "lmsdb1";
+ $dbhost = "den1.mysql1.gear.host";
+ $dbuser = "lmsdb12";
+ $dbpass = "Mo3j41A9!9~W";
+ $db = "lmsdb12";
 $con = mysqli_connect($dbhost,$dbuser,$dbpass,$db);
 
 // Check connection
