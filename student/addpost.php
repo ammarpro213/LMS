@@ -32,7 +32,7 @@
                     <li><a href="AddCourse.php">Add courses Files </a></li>
                     <li><a href="ViewCourse.php">View Courses contain</a></li>
                             <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">POST <b class="caret"></b></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" class="active">POST <b class="caret"></b></a>
             <ul class="dropdown-menu">
                           
             
@@ -40,7 +40,7 @@
               <li><a href="news_archive.php">show all post </a></li>            
             </ul>
           </li>
-                    <li class="active"><a href="EvaluationTeacher.php">Evaluation Teachers</a></li>
+                    <li ><a href="EvaluationTeacher.php">Evaluation Teachers</a></li>
                     <li><a href="jointocourse.php">JoinToCourse</a></li>
                     <li><a href="../login.php">Logout</a></li>
                     

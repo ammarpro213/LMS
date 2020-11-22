@@ -72,7 +72,7 @@
               <li><a href="news_archive.php">show all post </a></li>            
             </ul>
           </li>
-                    <li class="active"><a href="EvaluationTeacher.php">Evaluation Teachers</a></li>
+                    <li ><a href="EvaluationTeacher.php">Evaluation Teachers</a></li>
                     <li><a href="jointocourse.php">JoinToCourse</a></li>
                     <li><a href="../login.php">Logout</a></li>
                     

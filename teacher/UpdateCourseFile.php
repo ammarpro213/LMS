@@ -41,14 +41,15 @@ $row=mysqli_fetch_array($r1);
 				<a class="navbar-brand" href="Home.aspx">
 					<img src="assets/images/logo.png" alt="Techro HTML5 template"/></a>
 			</div>
-				<div class="navbar-collapse collapse">
+			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right mainNav">
-					<li ><a href="Home.php">Home</a></li>
-                    <li class="active"><a href="ManageMyCourse.php">Manage My Course</a></li> 
-					<li><a href="AddCourse.php">Add courses Files </a></li>
-					<li><a href="EvaluationStudent.php">Evaluation Student</a></li>
-					<li><a href="ec.php">mycourse Rate</a></li>
-					<li><a href="../login.php">Logout</a></li>
+				    <li><a href="Home.php">Home</a></li>
+          <li class="active"><a href="ManageMyCourse.php">Manage Course</a></li> 
+          <li><a href="AddCourse.php">Add Files </a></li>
+          <li><a href="pr.php">Presence </a></li>
+          <li><a href="EvaluationStudent.php">Evaluation Student</a></li>
+          <li><a href="ec.php">my course Rate</a></li>
+          <li><a href="../login.php">Logout</a></li>
 					
 
 				</ul>

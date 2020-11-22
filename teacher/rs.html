@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+<link href="jquery.rateyo.css" rel="stylesheet"/>
+</head>
+<body style="background-color: #cfcfcf">
+
+<div>
+    <div class="rateyo"
+         data-rateyo-rating="1"
+         data-rateyo-num-stars="5"
+         data-rateyo-score="4"></div>
+         <span class='score'>0</span>
+         <span class='result'>0</span>
+</div>
+<hr>
+<div>
+    <div class="rateyo"
+         data-rateyo-rating="2.4"
+         data-rateyo-num-stars="5"
+         data-rateyo-score="1"></div>
+         <span class='score'>0</span>
+         <span class='result'>0</span>
+</div>
+<hr>
+<div>
+    <div class="rateyo"
+         data-rateyo-rating="4"
+         data-rateyo-num-stars="5"
+         data-rateyo-score="3"></div>
+         <span class='score'>0</span>
+         <span class='result'>0</span>
+</div>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script src="js/jQuery.js"></script>
+<script src="jquery.rateyo.js"></script>
+<script type="text/javascript">
+    
+
+    $(function () {
+  $(".rateyo").rateYo().on("rateyo.change", function (e, data) {
+    var rating = data.rating;
+  
+    $(this).parent().find('.result').text('rating :'+ rating);
+   });
+});
+</script>
+</body>
+</html>

@@ -38,22 +38,15 @@ include'../conn.php';
 							<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right mainNav">
 					<li><a href="Home.php">Home</a></li>
-            <li class="dropdown ">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Courses <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-               <li><a href="ManageCourse.php">Manage Course</a></li>
-               <li><a href="ManageCourseFile.php">Manage Course File</a></li>
-               <li><a href="AddCourse.php">Add course</a></li> 
-                     
-            </ul>
-          </li>
+					<li><a href="ManageCourse.php">Manage Course</a></li>
+					<li class="active"><a href="AddPost.php">Add Post</a></li>
 
-<li class="dropdown active">
+<li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Evaluation <b class="caret"></b></a>
             <ul class="dropdown-menu">
               <li><a href="ViewEvaluationTaecher.php">View Evaluation Course</a></li>
               <li><a href="ViewEvaluationStudent.php">View Evaluation Student</a></li>
-               <li><a href="AddPost.php">Add Post</a></li>       
+                     
             </ul>
           </li>
           <li><a href="ManageStudent.php">Manage Student</a></li>

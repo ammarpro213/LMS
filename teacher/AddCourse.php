@@ -37,12 +37,12 @@ include'../conn.php';
 			</div>
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav pull-right mainNav">
-							<li class="active"><a href="Home.php">Home</a></li>
+							<li ><a href="Home.php">Home</a></li>
           <li><a href="ManageMyCourse.php">Manage Course</a></li> 
-					<li><a href="AddCourse.php">Add Files </a></li>
+					<li class="active"><a href="AddCourse.php">Add Files </a></li>
           <li><a href="pr.php">Presence </a></li>
 					<li><a href="EvaluationStudent.php">Evaluation Student</a></li>
-						<li><a href="ec.php">mycourse Rate</a></li>
+						<li><a href="ec.php">my course Rate</a></li>
 					<li><a href="../login.php">Logout</a></li>
 					
 

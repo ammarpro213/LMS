@@ -73,7 +73,7 @@ if (isset($z)) {
 					<li><a href="AddCourse.php">Add Files </a></li>
           <li class="active"><a href="pr.php" >Presence </a></li>
 					<li><a href="EvaluationStudent.php">Evaluation Student</a></li>
-					<li><a href="ec.php">mycourse Rate</a></li>
+					<li><a href="ec.php">my course Rate</a></li>
 					<li><a href="../login.php">Logout</a></li>
 					
 
