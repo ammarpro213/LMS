@@ -6,11 +6,11 @@ session_start();
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-	    <meta charset="utf-8">
+	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="free-educational-responsive-web-template-webEdu">
     <meta name="author" content="webThemez.com">
-    <title>Comments Page</title>
+    <title>free-educational-responsive-web-template-webEdu</title>
     <link rel="favicon" href="assets/images/favicon.png">
     <link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -88,16 +88,14 @@ session_start();
                     <li><a href="Home.php">Home</a></li>
                     <li><a href="AddCourse.php">Add courses Files </a></li>
                     <li><a href="ViewCourse.php">View Courses contain</a></li>
-                            <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">POST <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-                          
-            
-               <li><a href="addpost.php">Add post</a></li>  
-              <li><a href="news_archive.php">show all post </a></li>            
-            </ul>
-          </li>
-                    <li class="active"><a href="EvaluationTeacher.php">Evaluation Teachers</a></li>
+					<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">POST <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+					   <li><a href="addpost.php">Add post</a></li>  
+					  <li><a href="news_archive.php">show all post </a></li>            
+					</ul>
+				  </li>
+                    <li><a href="EvaluationTeacher.php">Evaluation Teachers</a></li>
                     <li><a href="jointocourse.php">JoinToCourse</a></li>
                     <li><a href="../login.php">Logout</a></li>
                     
